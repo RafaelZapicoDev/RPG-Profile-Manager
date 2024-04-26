@@ -1,0 +1,56 @@
+[
+    {
+        "Nome":"",
+        "Idade":0,
+        "Genero":"Non Binary",
+        "Epoca":"que diabo e isso",
+        "Local":"sei la",
+        "Atributos":{
+            "PV":"10",
+            "DEF":"0",
+            "AGI":"0",
+            "INT":"0",
+            "VIG":"0",
+            "Deslocamento":"0",
+            "DT Ritual":"0"
+        },
+        "Perícias":{
+            "Percepção":"",
+            "Iniciativa":"",
+            "Fortitude":"",
+            "Reflexo":"",
+            "Vontade":""
+        },
+        "Ataques":{
+            "Tipo":"",
+            "Item":"",
+            "Alcance":"",
+            "Teste":"",
+            "Critico":""
+        },
+        "Ações":[
+            {
+                "Tipo":"",
+                "Item":"",
+                "Alcance":"",
+                "Teste":"",
+                "Critico":"",
+                "Descrição":""
+            }
+        ],
+        "Ações":[
+            {
+                "Nome":"",
+                "Elemento":"",
+                "Execução":"",
+                "Alcance":"",
+                "Duração":"",
+                "Alvo":"",
+                "Resistência":"",
+                "Descrição":""
+            }
+        ]
+
+
+    }
+]

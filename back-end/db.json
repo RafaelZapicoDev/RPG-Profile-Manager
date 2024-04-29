@@ -1,56 +1,120 @@
 [
-    {
-        "Nome":"",
-        "Idade":0,
-        "Genero":"Non Binary",
-        "Epoca":"que diabo e isso",
-        "Local":"sei la",
-        "Atributos":{
-            "PV":"10",
-            "DEF":"0",
-            "AGI":"0",
-            "INT":"0",
-            "VIG":"0",
-            "Deslocamento":"0",
-            "DT Ritual":"0"
-        },
-        "Perícias":{
-            "Percepção":"",
-            "Iniciativa":"",
-            "Fortitude":"",
-            "Reflexo":"",
-            "Vontade":""
-        },
-        "Ataques":{
-            "Tipo":"",
-            "Item":"",
-            "Alcance":"",
-            "Teste":"",
-            "Critico":""
-        },
-        "Ações":[
-            {
-                "Tipo":"",
-                "Item":"",
-                "Alcance":"",
-                "Teste":"",
-                "Critico":"",
-                "Descrição":""
-            }
-        ],
-        "Ações":[
-            {
-                "Nome":"",
-                "Elemento":"",
-                "Execução":"",
-                "Alcance":"",
-                "Duração":"",
-                "Alvo":"",
-                "Resistência":"",
-                "Descrição":""
-            }
-        ]
-
-
-    }
+  {
+    "Nome": "",
+    "Idade": 0,
+    "Genero": "Non Binary",
+    "Epoca": "que diabo e isso",
+    "Local": "sei la",
+    "Atributos": {
+      "PV": "10",
+      "DEF": "0",
+      "AGI": "0",
+      "INT": "0",
+      "VIG": "0",
+      "Deslocamento": "0",
+      "DT Ritual": "0"
+    },
+    "Perícias": {
+      "Percepção": "",
+      "Iniciativa": "",
+      "Fortitude": "",
+      "Reflexo": "",
+      "Vontade": ""
+    },
+    "Ataque1": {
+      "Tipo": "",
+      "Item": "",
+      "Alcance": "",
+      "Teste": "",
+      "Critico": ""
+    },
+    "Ataque2": {
+      "Tipo": "",
+      "Item": "",
+      "Alcance": "",
+      "Teste": "",
+      "Critico": ""
+    },
+    "Ações": [
+      {
+        "Tipo": "",
+        "Item": "",
+        "Alcance": "",
+        "Teste": "",
+        "Critico": "",
+        "Descrição": ""
+      }
+    ],
+    "Ritual": [
+      {
+        "Nome": "",
+        "Elemento": "",
+        "Execução": "",
+        "Alcance": "",
+        "Duração": "",
+        "Alvo": "",
+        "Resistência": "",
+        "Descrição": ""
+      }
+    ]
+  },
+  {
+    "Nome": "NovoPersonagem",
+    "Idade": 25,
+    "Genero": "Non Binary",
+    "Epoca": "Futuro",
+    "Local": "Terra",
+    "Atributos": {
+      "PV": "10",
+      "DEF": "5",
+      "AGI": "7",
+      "INT": "10",
+      "VIG": "8",
+      "Deslocamento": "10",
+      "DT Ritual": "5"
+    },
+    "Perícias": {
+      "Percepção": "Alta",
+      "Iniciativa": "Rápida",
+      "Fortitude": "Alta",
+      "Reflexo": "Rápido",
+      "Vontade": "Forte"
+    },
+    "Ataque1": {
+      "Tipo": "Corpo a Corpo",
+      "Item": "Espada",
+      "Alcance": "Curto",
+      "Teste": "Acerto",
+      "Critico": "Dano Duplo"
+    },
+    "Ataque2": {
+      "Tipo": "Distância",
+      "Item": "Arco",
+      "Alcance": "Longo",
+      "Teste": "Acerto",
+      "Critico": "Dano Duplo"
+    },
+    "Ações": [
+      {
+        "Tipo": "Magia",
+        "Item": "Bastão",
+        "Alcance": "Médio",
+        "Teste": "Acerto",
+        "Critico": "Efeito Adicional",
+        "Descrição": "Lança feitiço de fogo"
+      }
+    ],
+    "Ritual": [
+      {
+        "Nome": "Invocação de Fogo",
+        "Elemento": "Fogo",
+        "Execução": "Rápida",
+        "Alcance": "Médio",
+        "Duração": "Instantânea",
+        "Alvo": "Oponente",
+        "Resistência": "Nenhuma",
+        "Descrição": "Invoca uma bola de fogo"
+      }
+    ]
+  }
 ]

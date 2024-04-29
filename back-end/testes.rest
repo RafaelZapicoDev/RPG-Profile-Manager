@@ -1,4 +1,66 @@
 ### 
 GET http://localhost:45678/
 
-###
+### 
+POST http://localhost:45678/criar-personagem
+Content-Type: application/json
+
+{
+    "Nome": "NovoPersonagem",
+    "Idade": 25,
+    "Genero": "Non Binary",
+    "Epoca": "Futuro",
+    "Local": "Terra",
+    "Atributos": {
+        "PV": "10",
+        "DEF": "5",
+        "AGI": "7",
+        "INT": "10",
+        "VIG": "8",
+        "Deslocamento": "10",
+        "DT Ritual": "5"
+    },
+    "Perícias": {
+        "Percepção": "Alta",
+        "Iniciativa": "Rápida",
+        "Fortitude": "Alta",
+        "Reflexo": "Rápido",
+        "Vontade": "Forte"
+    },
+    "Ataque1": {
+        "Tipo": "Corpo a Corpo",
+        "Item": "Espada",
+        "Alcance": "Curto",
+        "Teste": "Acerto",
+        "Critico": "Dano Duplo"
+    },
+    "Ataque2": {
+        "Tipo": "Distância",
+        "Item": "Arco",
+        "Alcance": "Longo",
+        "Teste": "Acerto",
+        "Critico": "Dano Duplo"
+    },
+    "Ações": [
+        {
+            "Tipo": "Magia",
+            "Item": "Bastão",
+            "Alcance": "Médio",
+            "Teste": "Acerto",
+            "Critico": "Efeito Adicional",
+            "Descrição": "Lança feitiço de fogo"
+        }
+    ],
+    "Ritual": [
+        {
+            "Nome": "Invocação de Fogo",
+            "Elemento": "Fogo",
+            "Execução": "Rápida",
+            "Alcance": "Médio",
+            "Duração": "Instantânea",
+            "Alvo": "Oponente",
+            "Resistência": "Nenhuma",
+            "Descrição": "Invoca uma bola de fogo"
+        }
+    ]
+}

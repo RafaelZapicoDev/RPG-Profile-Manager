@@ -44,7 +44,7 @@ app.get("/dados", (req, res) => {
 
 //criando um novo personagem
 
-app.post("/criar-personagem", (req, res) => {
+app.post("/produto", (req, res) => {
     
     let { Nome,
         Idade,
@@ -82,10 +82,36 @@ app.post("/criar-personagem", (req, res) => {
 
         Dados.push(novoPersonagem);
 
-    saveDados(); //Salva o produtos que tá no arquivo com base no produtos que tem aqui 
+    saveDados(); 
     res.statusCode = 200; //200 é ok deu certo
     res.json({ Erro: "Salvo com sucesso!" });
 });
+
+//deletando um personagem
+
+app.delete("/dado/:nome", (req, res) => {
+    const { nome } = req.params; 
+
+    if (!isNaN(nome)) {
+        res.status(400).json({ Erro: "Informe um nome válido!" });
+    } else {
+        // achar o index
+        const indexPersonagem = Dados.findIndex((personagem) => personagem.Nome === nome);
+
+        if (indexPersonagem === -1) {
+            res.status(404).json({
+                Erro: "Não existe um personagem com este nome.",
+            });
+        } else {
+            Dados.splice(indexPersonagem, 1);
+            saveDados();
+            res.status(200).json({
+                message: "Personagem removido com sucesso.",
+            });
+        }
+    }
+});
+
 
 
 

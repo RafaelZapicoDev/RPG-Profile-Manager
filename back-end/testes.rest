@@ -1,6 +1,11 @@
 ### 
 GET http://localhost:45678/
 
+
+### Excluir o personagem NovoPersonagem
+DELETE http://localhost:45678/dado/NovoPersonagem
+Content-Type: application/json
+
 ### 
 POST http://localhost:45678/criar-personagem
 Content-Type: application/json
@@ -42,14 +47,7 @@ Content-Type: application/json
         "Critico": "Dano Duplo"
     },
     "Ações": [
-        {
-            "Tipo": "Magia",
-            "Item": "Bastão",
-            "Alcance": "Médio",
-            "Teste": "Acerto",
-            "Critico": "Efeito Adicional",
-            "Descrição": "Lança feitiço de fogo"
-        }
+        
     ],
     "Ritual": [
         {
